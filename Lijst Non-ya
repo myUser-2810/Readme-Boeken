@@ -1,0 +1,23 @@
+# Lijst non-YA
+
+def read_books (file_path):
+    with open(file_path, 'r') as text:
+        return text.read()
+    
+file_paths = [
+    'non-YA txt files/DeLimonadejagers.txt',
+    'non-YA txt files/DeSchippersVanDeKameleon.txt',
+    'non-YA txt files/DiefMetDuizendGezichten.txt',
+    'non-YA txt files/HetGroeneLabyrint.txt',
+    'non-YA txt files/Oorlogsgeheimen.txt',
+    'non-YA txt files/Radeloos.txt',
+    'non-YA txt files/SjakieEnDeChocoladefabriek.txt',
+    'non-YA txt files/Spinder.txt',
+    'non-YA txt files/SuperheldenNL.txt', 
+    'non-YA txt files/VreemdLand.txt' ]
+
+nieuw_boek = '*' * 110
+
+for path in file_paths:
+    tekst_uit_boek = read_books(path)
+    print (f"{tekst_uit_boek}\n{nieuw_boek}\n\n\n\n")
