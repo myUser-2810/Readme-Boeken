@@ -15,8 +15,11 @@ Externe modules die worden gebruikt zijn onder andere:
 -Matplotlib
 # Inhoud van de projectmap
 -Jupiter Notebooks met code voor gegevensverzameling, -organisatie en -analyse.
+
 -TXT-bestanden van zowel Young Adult als niet-Young Adult boeken.
+
 -Python-scripts voor het analyseren van woord- en zinslengtes, en het uitvoeren van de T-test.
+
 -Grafieken en visuele representaties van de resultaten met Matplotlib.
 # Gebruik
 Anderen kunnen de code gebruiken door de Jupiter Notebooks en Python-scripts te openen in een omgeving met Jupiter Notebook en Python 3.x. Ze moeten ervoor zorgen dat de vereiste externe modules (NumPy, SciPy, Matplotlib) zijn geïnstalleerd. Door de code door te lopen, kunnen ze de stappen begrijpen die zijn genomen voor gegevensverzameling, -analyse en conclusievorming met betrekking tot de moeilijkheidsgraad van Young Adult en niet-Young Adult boeken.
